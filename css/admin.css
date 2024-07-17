@@ -1,0 +1,119 @@
+/*
+Author:Shanwitha
+Theme:restuarent
+version:1.0
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.wrapper{
+    padding: 1%;
+    margin: 0 auto;
+    width: 80%;
+}
+.text-centre{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+a{
+    color: palevioletred;
+    text-decoration: none;
+}
+a:hover{
+    color: #6ab04c;
+}
+.clear-fix{
+    float:none;
+    clear: both;
+}
+.table-full{
+    width: 100%;
+}
+.table-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.button{
+    border-radius: 10px;
+    color: white;
+}
+.button-primary{
+    background-color: #1e90ff;
+    padding: 0.75%;
+}
+.button-primary:hover{
+    background-color: #3742fa;
+    color: white;
+}
+
+.button-secondary{
+    background-color: #32ff7e;
+    padding: 0.75%;
+}
+.button-secondary:hover{
+    background-color: #3ae374;
+    color: white;
+}
+
+.button-danger{
+    background-color: #e84118;
+    padding: 0.75%;
+}
+.button-danger:hover{
+    background-color: #c23616;
+    color: white;
+}
+.success{
+    color: #05c46b;
+}
+.error{
+    color: #ef5777; 
+}
+
+
+/*CSS for menu*/
+.menu{
+    text-align: right;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* CSS for main-content */
+.main-content{
+    margin: 1% 0;
+    background-color: #f3f6e4 ;
+}
+.col-4{
+    width: 20%;
+    background-color: white;
+    padding: 1%;
+    margin: 1%;
+    float: left;
+
+}
+
+/* CSS for login*/
+.login{
+    width: 20%;
+    border: 1px solid black;
+    margin: 10% auto;
+    padding: 2%;
+
+}
